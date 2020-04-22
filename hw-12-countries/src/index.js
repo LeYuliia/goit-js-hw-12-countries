@@ -1,6 +1,6 @@
 import './css/styles.css';
 //Импорт  lodash.debounce.
-var debounce = require('lodash.debounce');
+import debounce from 'lodash.debounce';
 
 import fetchCountries from './js/fetchCountries.js';
 import refs from './js/refs.js';
